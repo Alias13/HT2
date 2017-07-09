@@ -1,6 +1,6 @@
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-    .wrapper main div {min-width: 199px;}
+    .wrapper main>div {min-width: 199px;}
 }
 
 /*Extra small devices (portrait phones, less than 576px)*/
@@ -23,8 +23,10 @@
     .wrapper nav {width: 60px;}
     .wrapper nav ul li {padding: 5px; line-height: 3em;}
     .menuIcon {width: 30px;}
-    .wrapper main div:first-child {height: calc(100vh - 78px);}
+    .wrapper main>div:first-child {height: calc(100vh - 78px);}
     header {height: 58px;}
+    .search {top: 9px;}
+    .search input { margin-left: 0;}
 }
 
 /* Medium Devices, Desktops */
